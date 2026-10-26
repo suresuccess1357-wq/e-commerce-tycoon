@@ -1,0 +1,10 @@
+{
+  "name": "private-room",
+  "version": "1.0.0",
+  "private": true,
+  "description": "End-to-end encrypted two-person chat and file relay. The server never sees keys or content.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "ws": "^8.18.0" },
+  "engines": { "node": ">=18" }
+}
